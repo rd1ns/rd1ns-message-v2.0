@@ -1,0 +1,69 @@
+Projeb Bilgileri ve Teknolojiler
+
+Proje Adı: RD1NS Message - Yeni Nesil Mesajlaşma Uygulaması
+
+Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, PWA (Progressive Web App) özelliklerine sahip, gelişmiş bir anlık mesajlaşma platformudur.
+
+Kullanılan Teknolojiler:
+
+1. Backend (Sunucu Tarafı):
+   - PHP (Native): Sunucu tarafı mantığı ve API işlemleri için.
+   - MySQL (PDO): Veritabanı yönetimi ve güvenli veri saklama işlemleri için.
+
+2. Frontend (İstemci Tarafı):
+   - HTML5: Semantik yapı ve modern web standartları.
+   - CSS3 (Vanilla): 
+     - "Glassmorphism" (Cam efekti) tasarım dili.
+     - Responsive (Duyarlı) tasarım (Mobil ve Masaüstü uyumlu).
+     - CSS Değişkenleri (Variables) ile tema yönetimi.
+   - JavaScript (Vanilla ES6+): 
+     - Framework kullanılmadan (React/Vue vb. olmadan) saf JS ile SPA (Single Page Application) hissi.
+     - AJAX / Fetch API ile asenkron veri iletişimi.
+   - Service Workers (sw.js): PWA özellikleri, önbellekleme ve bildirimler için.
+
+3. Kütüphaneler ve Araçlar:
+   - FontAwesome 6: İkon setleri için.
+   - Google Fonts (Inter): Tipografi için.
+   - Manifest.json: Uygulamanın mobil cihazlara kurulabilmesi için.
+
+Proje Özellikleri:
+
+1. Kullanıcı İşlemleri:
+   - Kayıt Ol / Giriş Yap sistemi.
+   - Benzersiz ID (RD-ID) sistemi (Örn: RD-A1B2C3).
+   - 30 günlük oturum kalıcılığı.
+   - Profil Düzenleme: Profil fotoğrafı yükleme, yakınlaştırma/kırpma, biyografi ekleme, kullanıcı adı değiştirme.
+
+2. Mesajlaşma Özellikleri:
+   - Anlık metin mesajlaşması.
+   - Görsel ve Dosya gönderme.
+   - Sesli Kayıt (Voice Note) gönderme.
+   - Konum paylaşma.
+   - Emoji seçici.
+   - Mesaj İşlemleri: Yanıtlama, Kopyalama, Tepki Verme (Emoji Reaction), Düzenleme ve Silme.
+   - Sohbet arka planını özelleştirme (Hazır renkler veya özel resim yükleme).
+
+3. Sosyal Özellikler:
+   - Arkadaş Ekleme Sistemi: Benzersiz ID ile arkadaşlık isteği gönderme.
+   - İstekleri Kabul Etme / Reddetme.
+   - Hikayeler (Stories): 24 saatlik durum paylaşımı (Görsel/Video).
+   - Gruplar: Grup oluşturma, katılma (kod ile) ve yönetme.
+
+4. Bildirim ve Sesler:
+   - Özelleştirilebilir bildirim sesleri (Pop, Crystal, Modern vb.).
+   - Sohbet sessize alma (Mute) özelliği.
+   - Tarayıcı ve sistem bildirimleri entegrasyonu.
+   - "Silent Audio" tekniği ile arka planda çalışmaya devam etme yeteneği.
+
+5. Arayüz ve Deneyim:
+   - Modern, koyu temalı cam (glass) tasarımı.
+   - Mobil öncelikli (Mobile-First) yaklaşım.
+   - PWA Desteği: "Ana Ekrana Ekle" butonu ile uygulama gibi çalışma.
+   - Uygulama içi tost (toast) bildirimleri.
+   - Çevrimiçi / Son görülme durumu takibi.
+
+Dizin Yapısı Hakkında Notlar:
+- `api/`: Backend işlemlerinin döndüğü klasör.
+- `assets/`: Statik dosyalar.
+- `includes/`: Veritabanı bağlantısı ve yardımcı PHP parçaları.
+- `uploads/`: Kullanıcıların gönderdiği resim ve dosyaların saklandığı yer.
